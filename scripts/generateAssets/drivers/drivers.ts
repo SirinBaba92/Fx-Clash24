@@ -102,10 +102,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 2,
+    id: 16,
     name: 'Oscar Piastri',
     rarity: 'common',
-    series: 1,
+    series: 4,
     stats: [
       {
         level: 1,
@@ -198,10 +198,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 3,
+    id: 7,
     name: 'Nico Hulkenberg',
     rarity: 'common',
-    series: 1,
+    series: 2,
     stats: [
       {
         level: 1,
@@ -294,10 +294,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 4,
+    id: 28,
     name: 'Daniel Ricciardo',
     rarity: 'rare',
-    series: 1,
+    series: 6,
     stats: [
       {
         level: 1,
@@ -374,10 +374,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 5,
+    id: 51,
     name: 'Alex Albon',
     rarity: 'epic',
-    series: 1,
+    series: 11,
     stats: [
       {
         level: 1,
@@ -446,7 +446,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 6,
+    id: 8,
     name: 'Daniel Ricciardo',
     rarity: 'common',
     series: 2,
@@ -542,10 +542,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 7,
+    id: 14,
     name: 'Alex Albon',
     rarity: 'common',
-    series: 2,
+    series: 3,
     stats: [
       {
         level: 1,
@@ -638,7 +638,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     name: 'Yuki Tsunoda',
     rarity: 'common',
     series: 2,
@@ -734,10 +734,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 9,
+    id: 3,
     name: 'Zhou Guanyu',
     rarity: 'common',
-    series: 2,
+    series: 1,
     stats: [
       {
         level: 1,
@@ -902,10 +902,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 11,
+    id: 6,
     name: 'Valtteri Bottas',
     rarity: 'common',
-    series: 3,
+    series: 2,
     stats: [
       {
         level: 1,
@@ -998,10 +998,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 12,
+    id: 2,
     name: 'Kevin Magnussen',
     rarity: 'common',
-    series: 3,
+    series: 1,
     stats: [
       {
         level: 1,
@@ -1094,7 +1094,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     name: 'Esteban Ocon',
     rarity: 'common',
     series: 3,
@@ -1190,7 +1190,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 14,
+    id: 11,
     name: 'Pierre Gasly',
     rarity: 'common',
     series: 3,
@@ -1286,10 +1286,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 15,
+    id: 36,
     name: 'Oscar Piastri',
     rarity: 'rare',
-    series: 3,
+    series: 8,
     stats: [
       {
         level: 1,
@@ -1366,10 +1366,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 16,
+    id: 13,
     name: 'Lance Stroll',
     rarity: 'common',
-    series: 4,
+    series: 3,
     stats: [
       {
         level: 1,
@@ -1462,7 +1462,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 17,
+    id: 19,
     name: 'Sergio Perez',
     rarity: 'common',
     series: 4,
@@ -1654,7 +1654,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 19,
+    id: 17,
     name: 'George Russell',
     rarity: 'common',
     series: 4,
@@ -1750,10 +1750,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 20,
+    id: 52,
     name: 'Oscar Piastri',
     rarity: 'epic',
-    series: 4,
+    series: 11,
     stats: [
       {
         level: 1,
@@ -1822,7 +1822,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 21,
+    id: 22,
     name: 'Fernando Alonso',
     rarity: 'common',
     series: 5,
@@ -1918,7 +1918,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 22,
+    id: 21,
     name: 'Lando Norris',
     rarity: 'common',
     series: 5,
@@ -2014,7 +2014,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 23,
+    id: 25,
     name: 'Max Verstappen',
     rarity: 'common',
     series: 5,
@@ -2206,7 +2206,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 25,
+    id: 23,
     name: 'Lewis Hamilton',
     rarity: 'common',
     series: 5,
@@ -2302,7 +2302,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 26,
+    id: 29,
     name: 'Zhou Guanyu',
     rarity: 'rare',
     series: 6,
@@ -2382,7 +2382,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 27,
+    id: 26,
     name: 'Logan Sargeant',
     rarity: 'rare',
     series: 6,
@@ -2462,7 +2462,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 28,
+    id: 27,
     name: 'Nico Hulkenberg',
     rarity: 'rare',
     series: 6,
@@ -2542,10 +2542,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 29,
+    id: 35,
     name: 'Alex Albon',
     rarity: 'rare',
-    series: 6,
+    series: 7,
     stats: [
       {
         level: 1,
@@ -2622,10 +2622,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 30,
+    id: 5,
     name: 'Nico Hulkenberg',
     rarity: 'epic',
-    series: 6,
+    series: 1,
     stats: [
       {
         level: 1,
@@ -2774,10 +2774,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 32,
+    id: 4,
     name: 'Valtteri Bottas',
     rarity: 'rare',
-    series: 7,
+    series: 1,
     stats: [
       {
         level: 1,
@@ -2854,10 +2854,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 33,
+    id: 15,
     name: 'Kevin Magnussen',
     rarity: 'rare',
-    series: 7,
+    series: 3,
     stats: [
       {
         level: 1,
@@ -2934,7 +2934,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 34,
+    id: 33,
     name: 'Esteban Ocon',
     rarity: 'rare',
     series: 7,
@@ -3014,7 +3014,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 35,
+    id: 32,
     name: 'Pierre Gasly',
     rarity: 'rare',
     series: 7,
@@ -3094,7 +3094,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-  id: 36,
+  id: 39,
     name: 'Sergio Perez',
     rarity: 'rare',
     series: 8,
@@ -3174,10 +3174,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 37,
+    id: 34,
     name: 'Lance Stroll',
     rarity: 'rare',
-    series: 8,
+    series: 7,
     stats: [
       {
         level: 1,
@@ -3254,7 +3254,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 38,
+    id: 37,
     name: 'George Russell',
     rarity: 'rare',
     series: 8,
@@ -3334,7 +3334,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 39,
+    id: 38,
     name: 'Carlos Sainz',
     rarity: 'rare',
     series: 8,
@@ -3414,10 +3414,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 40,
+    id: 46,
     name: 'Daniel Ricciardo',
     rarity: 'epic',
-    series: 8,
+    series: 10,
     stats: [
       {
         level: 1,
@@ -3486,7 +3486,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 41,
+    id: 42,
     name: 'Fernando Alonso',
     rarity: 'rare',
     series: 9,
@@ -3566,7 +3566,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 42,
+    id: 41,
     name: 'Lando Norris',
     rarity: 'rare',
     series: 9,
@@ -3886,10 +3886,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 46,
+    id: 30,
     name: 'Zhou Guanyu',
     rarity: 'epic',
-    series: 10,
+    series: 6,
     stats: [
       {
         level: 1,
@@ -4030,7 +4030,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 48,
+    id: 49,
     name: 'Esteban Ocon',
     rarity: 'epic',
     series: 10,
@@ -4102,10 +4102,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 49,
+    id: 40,
     name: 'Valtteri Bottas',
     rarity: 'epic',
-    series: 10,
+    series: 8,
     stats: [
       {
         level: 1,
@@ -4174,10 +4174,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 50,
+    id: 20,
     name: 'Kevin Magnussen',
     rarity: 'epic',
-    series: 10,
+    series: 4,
     stats: [
       {
         level: 1,
@@ -4246,7 +4246,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 51,
+    id: 55,
     name: 'Sergio Perez',
     rarity: 'epic',
     series: 11,
@@ -4318,10 +4318,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 52,
+    id: 48,
     name: 'Pierre Gasly',
     rarity: 'epic',
-    series: 11,
+    series: 10,
     stats: [
       {
         level: 1,
@@ -4462,10 +4462,10 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 54,
+    id: 50,
     name: 'Lance Stroll',
     rarity: 'epic',
-    series: 11,
+    series: 10,
     stats: [
       {
         level: 1,
@@ -4534,7 +4534,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 55,
+    id: 54,
     name: 'Carlos Sainz',
     rarity: 'epic',
     series: 11,
@@ -4678,7 +4678,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 57,
+    id: 58,
     name: 'Lewis Hamilton',
     rarity: 'epic',
     series: 12,
@@ -4750,7 +4750,7 @@ const DRIVERS: Driver[] = [
     ],
   },
   {
-    id: 58,
+    id: 57,
     name: 'Fernando Alonso',
     rarity: 'epic',
     series: 12,
