@@ -16,7 +16,7 @@ const GEARBOXES: Part[] = [
         speed: 1,
         cornering: 1,
         powerUnit: 1,
-        qual: 1,
+        qualifying: 1,
         pitStopTime: 1,
       },
     ],
