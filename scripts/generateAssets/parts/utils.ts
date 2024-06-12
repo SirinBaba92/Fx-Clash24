@@ -45,7 +45,7 @@ const calculatePartAvgAndPercentage = (parts: Part[]) => {
     cornering: calcSum('cornering'),
     pitStopTime: calcSum('pitStopTime'),
     powerUnit: calcSum('powerUnit'),
-    qual: calcSum('qualifying'),
+    qualifying: calcSum('qualifying'),
     speed: calcSum('speed'),
   };
 
@@ -53,7 +53,7 @@ const calculatePartAvgAndPercentage = (parts: Part[]) => {
     cornering: allPartsStatsSum.cornering / numberOfStats,
     pitStopTime: allPartsStatsSum.pitStopTime / numberOfStats,
     powerUnit: allPartsStatsSum.powerUnit / numberOfStats,
-    qualifying: allPartsStatsSum.qualifying / numberOfStats,
+  qualifying: allPartsStatsSum.qualifying / numberOfStats,
     speed: allPartsStatsSum.speed / numberOfStats,
   };
 
@@ -61,7 +61,7 @@ const calculatePartAvgAndPercentage = (parts: Part[]) => {
     cornering: calculatePercentageToSelectedPartStat(eachStatAvg.cornering, eachStatAvg),
     pitStopTime: calculatePercentageToSelectedPartStat(eachStatAvg.pitStopTime, eachStatAvg),
     powerUnit: calculatePercentageToSelectedPartStat(eachStatAvg.powerUnit, eachStatAvg),
-    reliability: calculatePercentageToSelectedPartStat(eachStatAvg.reliability, eachStatAvg),
+    qualifying: calculatePercentageToSelectedPartStat(eachStatAvg.qualifying, eachStatAvg),
     speed: calculatePercentageToSelectedPartStat(eachStatAvg.speed, eachStatAvg),
   };
 
@@ -82,10 +82,10 @@ const calculatePartWeightedScore = (
   const speedWeightedScore = partStatsAvg.percentage.speed * (partStats.speed - partStats.pitStopTime);
   const corneringWeightedScore = partStatsAvg.percentage.cornering * (partStats.cornering - partStats.pitStopTime);
   const powerUnitWeightedScore = partStatsAvg.percentage.powerUnit * (partStats.powerUnit - partStats.pitStopTime);
-  const reliabilityWeightedScore =
-    partStatsAvg.percentage.reliability * (partStats.reliability - partStats.pitStopTime);
+  const qualifyingWeightedScore =
+    partStatsAvg.percentage.qualifying * (partStats.qualifying - partStats.pitStopTime);
 
-  const weightedScore = speedWeightedScore + corneringWeightedScore + powerUnitWeightedScore + reliabilityWeightedScore;
+  const weightedScore = speedWeightedScore + corneringWeightedScore + powerUnitWeightedScore + qualifyingWeightedScore;
 
   return weightedScore;
 };

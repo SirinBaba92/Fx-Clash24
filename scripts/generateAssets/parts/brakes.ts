@@ -16,7 +16,7 @@ const BRAKES: Part[] = [
         speed: 1,
         cornering: 1,
         powerUnit: 1,
-        reliability: 1,
+        qualifying: 1,
         pitStopTime: 1,
       },
     ],
