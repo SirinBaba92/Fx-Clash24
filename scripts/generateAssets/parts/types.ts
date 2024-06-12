@@ -13,7 +13,7 @@ export interface Stat {
   speed: number;
   cornering: number;
   powerUnit: number;
-  reliability: number;
+  qualifying: number;
   pitStopTime: number;
   score: Score;
   upgrade: Upgrade;
