@@ -28,7 +28,7 @@ const calculatePercentageToSelectedPartStat = (
         (eachStatAvg.cornering +
           eachStatAvg.pitStopTime +
           eachStatAvg.powerUnit +
-          eachStatAvg.reliability +
+          eachStatAvg.qualifying +
           eachStatAvg.speed)) /
     4;
 
@@ -45,7 +45,7 @@ const calculatePartAvgAndPercentage = (parts: Part[]) => {
     cornering: calcSum('cornering'),
     pitStopTime: calcSum('pitStopTime'),
     powerUnit: calcSum('powerUnit'),
-    reliability: calcSum('reliability'),
+    qual: calcSum('qualifying'),
     speed: calcSum('speed'),
   };
 
@@ -53,7 +53,7 @@ const calculatePartAvgAndPercentage = (parts: Part[]) => {
     cornering: allPartsStatsSum.cornering / numberOfStats,
     pitStopTime: allPartsStatsSum.pitStopTime / numberOfStats,
     powerUnit: allPartsStatsSum.powerUnit / numberOfStats,
-    reliability: allPartsStatsSum.reliability / numberOfStats,
+    qualifying: allPartsStatsSum.qualifying / numberOfStats,
     speed: allPartsStatsSum.speed / numberOfStats,
   };
 

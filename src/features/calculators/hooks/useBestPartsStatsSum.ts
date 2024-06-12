@@ -34,13 +34,13 @@ const useBestPartsStatsSum = (props: Props): BestPartsSum => {
       bestGearbox.stat.powerUnit +
       bestRearWing.stat.powerUnit +
       bestSuspension.stat.powerUnit,
-    reliability:
-      bestBrake.stat.reliability +
-      bestEngine.stat.reliability +
-      bestFrontWing.stat.reliability +
-      bestGearbox.stat.reliability +
-      bestRearWing.stat.reliability +
-      bestSuspension.stat.reliability,
+    qualifying:
+      bestBrake.stat.qualifying +
+      bestEngine.stat.qualifying +
+      bestFrontWing.stat.qualifying +
+      bestGearbox.stat.qualifying +
+      bestRearWing.stat.qualifying +
+      bestSuspension.stat.qualifying,
     speed:
       bestBrake.stat.speed +
       bestEngine.stat.speed +
