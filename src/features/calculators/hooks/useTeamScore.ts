@@ -6,7 +6,7 @@ const useTeamScore = (driver: BestDrivers, parts: BestParts) => {
   const { bestBrake, bestEngine, bestFrontWing, bestGearbox, bestRearWing, bestSuspension } = parts;
 
   const calculateStatSumWithoutPitStopTime = (stat: PartStat) =>
-    stat.cornering + stat.powerUnit + stat.qualifying + stat.qualif;
+    stat.cornering + stat.powerUnit + stat.qualifying + stat.qualifying;
 
   const pitStopTimeSum =
     bestBrake.stat.pitStopTime +
