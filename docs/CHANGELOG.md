@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ruiaraujo012/fx-clash-stats-web/compare/v2.0.0...v2.0.1) (2024-06-13)
+
+
+### Bug Fixes
+
+* **calculations:** fix a team score calculation bug ([8493c99](https://github.com/ruiaraujo012/fx-clash-stats-web/commit/8493c9993e8feef46f827f42970b74fc42732c29))
+
 # [2.0.0](https://github.com/ruiaraujo012/fx-clash-stats-web/compare/v1.0.11...v2.0.0) (2024-06-13)
 
 
