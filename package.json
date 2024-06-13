@@ -5,13 +5,14 @@
   "repository": "github:ruiaraujo012/fx-clash-stats-web",
   "homepage": "https://ruiaraujo012.github.io/fx-clash-stats-web/#",
   "type": "module",
+  "packageManager": "pnpm@9.3.0",
   "scripts": {
     "dev": "vite",
     "build": "pnpm build:prod",
     "build:dev": "tsc && vite build --mode development",
     "build:prod": "tsc && vite build",
     "preview": "vite preview",
-    "generate-assets": "ts-node scripts/generateAssets/index.ts",
+    "generate-assets": "tsx scripts/generateAssets/index.ts",
     "semantic-release": "semantic-release",
     "deploy:gh-pages": "gh-pages -d build"
   },
@@ -49,6 +50,7 @@
     "simple-zustand-devtools": "^1.1.0",
     "tailwindcss": "^3.3.1",
     "ts-node": "^10.9.1",
+    "tsx": "^4.15.4",
     "typescript": "^5.1.5",
     "vite": "^4.3.1",
     "vite-plugin-checker": "^0.6.1",

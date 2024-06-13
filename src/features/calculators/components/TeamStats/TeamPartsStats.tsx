@@ -21,7 +21,7 @@ const TeamPartsStats = (props: Props) => {
         <TeamStatCard title={t('parts:speed')}>{speed}</TeamStatCard>
         <TeamStatCard title={t('parts:powerUnit')}>{powerUnit}</TeamStatCard>
         <TeamStatCard title={t('parts:cornering')}>{cornering}</TeamStatCard>
-        <TeamStatCard title={t('parts: qualifying')}>{qualifying}</TeamStatCard>
+        <TeamStatCard title={t('parts:qualifying')}>{qualifying}</TeamStatCard>
         <TeamStatCard title={t('parts:pitStopTime')}>{pitStopTime.toFixed(2)}</TeamStatCard>
       </div>
 
@@ -32,7 +32,7 @@ const TeamPartsStats = (props: Props) => {
           <TeamStatCard title={t('parts:cornering')}>{cornering}</TeamStatCard>
         </div>
         <div className='flex flex-row justify-evenly gap-2 w-full'>
-          <TeamStatCard title={t('parts: qualifying')}>{qualifying}</TeamStatCard>
+          <TeamStatCard title={t('parts:qualifying')}>{qualifying}</TeamStatCard>
           <TeamStatCard title={t('parts:pitStopTime')}>{pitStopTime.toFixed(2)}</TeamStatCard>
         </div>
       </div>
