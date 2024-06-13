@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ruiaraujo012/fx-clash-stats-web/compare/v1.0.11...v2.0.0) (2024-06-13)
+
+
+### Features
+
+* **2024-season:** update app to the 2024 season ([ec8085d](https://github.com/ruiaraujo012/fx-clash-stats-web/commit/ec8085db50a5fae8a209fd175606000d45731d0a))
+
+
+### BREAKING CHANGES
+
+* **2024-season:** new season 2024
+
 ## [1.0.11](https://github.com/ruiaraujo012/fx-clash-stats-web/compare/v1.0.10...v1.0.11) (2023-09-25)
 
 
