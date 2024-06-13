@@ -6,7 +6,7 @@ const useTeamScore = (driver: BestDrivers, parts: BestParts) => {
   const { bestBrake, bestEngine, bestFrontWing, bestGearbox, bestRearWing, bestSuspension } = parts;
 
   const calculateStatSumWithoutPitStopTime = (stat: PartStat) =>
-    stat.cornering + stat.powerUnit + stat.reliability + stat.reliability;
+    stat.cornering + stat.powerUnit + stat.qualifying + stat.qualifying;
 
   const pitStopTimeSum =
     bestBrake.stat.pitStopTime +
@@ -26,9 +26,9 @@ const useTeamScore = (driver: BestDrivers, parts: BestParts) => {
 
   // FIXME: Find the right values for the linear functions (those work well but not perfectly)
   // eslint-disable-next-line id-length
-  const a = -45.9;
+  const a = -28.62;
   // eslint-disable-next-line id-length
-  const b = 281;
+  const b = 177.7;
 
   // f(x) = a*x + b
   const pitStopTimeValue = a * pitStopTimeSum + b;

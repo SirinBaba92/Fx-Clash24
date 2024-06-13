@@ -47,9 +47,9 @@ const PartStats = (props: Props) => {
         <div className='flex w-1/2 justify-center'>
           <DefinitionItem
             className='text-center'
-            term={t('parts:reliability')}
+            term={t('parts:qualifying')}
           >
-            {stat.reliability}
+            {stat.qualifying}
           </DefinitionItem>
         </div>
         <div className='flex w-1/2 justify-center pl-2'>

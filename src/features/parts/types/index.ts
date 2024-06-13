@@ -12,6 +12,6 @@ export interface PartStat extends BaseStat {
   speed: number;
   cornering: number;
   powerUnit: number;
-  reliability: number;
+  qualifying: number;
   pitStopTime: number;
 }
